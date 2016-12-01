@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=360, user-scalable=no"/>
+
+    <title>Self camera</title>
+    <meta name="description" content="SelfCamera"/>
+   
+
+    <script src="lib/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/app.systemIO.js"></script>
+    <script src="js/main.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="SpiritLevel Sample Application" />
+
+
+
+</head>
+<body>
+
+    <div id="camera"></div>
+    
+    <!-- <div>
+          <div id="AngleInfo" >
+                    <script type="text/javascript">
+                              Sensing();
+                    </script>
+          </div>
+    </div> -->
+    
+       
+    <div id="RcircleX"></div>
+    <div id="RcircleY"></div>
+    
+    <div id="X"></div>
+    <div id="Y"></div> 
+    
+    <div id="circleX"></div>  
+    <div id="circleY"></div> 
+         
+    <div id="countdown"></div>
+
+    <div class="timers">
+        <div id="timer0"></div>
+        <div id="timer2"></div>
+        <div id="timer5"></div>
+        <div id="timer10"></div>  
+    </div>
+     
+
+    <div id="thumbnail">
+        <div id="upImage"></div>
+    </div>
+
+    <div id="shutter-container">
+        <div id="shutter"></div>
+    </div>
+
+    <div id="bar"></div>
+
+    <div id="failure">Failed to take photo!</div>
+     
+    <div id = "Favorite"          Onclick = "readAsText()"></div>
+    
+      
+
+</body>
+</html>
